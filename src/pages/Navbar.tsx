@@ -4,9 +4,9 @@ import React from "react";
 
 export const Navbar: React.FC = () => {
   return (
-    <nav>
-      <h1>ECOMMERCE</h1>
-      <div>
+    <nav className="flex items-end justify-between p-8">
+      <h1 className="font-bold">ECOMMERCE</h1>
+      <div className="flex justify-between gap-4 text-[12px] font-bold">
         <p>Categories</p>
         <p>Sale</p>
         <p>Clearance</p>
@@ -14,12 +14,12 @@ export const Navbar: React.FC = () => {
         <p>Trending</p>
       </div>
       <div>
-        <div>
+        <div className="mb-2 flex justify-end gap-4 bg-red-100 text-[10px]">
           <p>Help</p>
           <p>Orders & Returns</p>
           <p>Hi, John</p>
         </div>
-        <div>
+        <div className="text-md flex justify-end gap-2">
           <AiOutlineSearch />
           <AiOutlineShoppingCart />
         </div>
