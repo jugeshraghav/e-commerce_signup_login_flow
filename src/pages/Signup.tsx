@@ -37,7 +37,7 @@ export const Signup: React.FC = () => {
           CREATE ACCOUNT
         </button>
         <p className="text-center">
-          <span className="text-[12px] text-gray-600">Have and account? </span>
+          <span className="text-[12px] text-gray-600">Have an account? </span>
           <span className="text-[12px]">LOGIN</span>
         </p>
       </form>
