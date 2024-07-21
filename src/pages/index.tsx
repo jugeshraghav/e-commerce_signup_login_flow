@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { api } from "~/utils/api";
 import { Navbar } from "./Navbar";
+import { Signup } from "./Signup";
 
 export default function Home() {
   const hello = api.post.hello.useQuery({ text: "from tRPC" });
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <Navbar />
+        <Signup />
       </main>
     </>
   );

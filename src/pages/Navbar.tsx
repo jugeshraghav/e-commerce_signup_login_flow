@@ -15,7 +15,7 @@ export const Navbar: React.FC = () => {
           <p>Trending</p>
         </div>
         <div>
-          <div className="mb-2 flex justify-end gap-4 bg-red-100 text-[10px]">
+          <div className="mb-2 flex justify-end gap-4 text-[10px]">
             <p>Help</p>
             <p>Orders & Returns</p>
             <p>Hi, John</p>
@@ -27,7 +27,9 @@ export const Navbar: React.FC = () => {
         </div>
       </div>
       <div>
-        <p>Get 10% off on business signup </p>
+        <p className="bg-gray-200 p-1 text-center text-[10px]">
+          Get 10% off on business signup{" "}
+        </p>
       </div>
     </div>
   );
